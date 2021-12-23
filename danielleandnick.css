@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;1,200&family=Marcellus&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #7b7d87;
+}
+
+header, footer {
+  color: white;
+  background-color: #3a455c;
+  padding: 1vw;
+}
+
+footer {
+  bottom: 0;
+  position: absolute;
+  width: 100vw;
+  text-align: right;
+}
+
+header a, footer p {
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: inherit;
+  font-family: 'Karla', sans-serif;
+  text-transform: uppercase;
+}
+
+header a:hover {
+  border-bottom: 2px solid white;
+}
+
+/* DIVS */
+
+.main {
+  margin: 0;
+  max-height: 85vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #7b7d87;
+  padding-top: 10vw;
+  overflow: hidden;
+}
+
+.textsection {
+  width: 50vw;
+  position: absolute;
+  right: 0;
+}
+
+.map {
+  width: 600px;
+  border: 10px solid #fff;
+  float: right;
+  background-color: #fff;
+  margin: 5vw;
+}
+
+/* TEXT */
+
+.main h1 {
+  text-align: left;
+  font-family: 'Marcellus', serif;
+  color: #FFF;
+  font-size: 80px;
+  line-height: 80%;
+}
+
+h2 {
+  font-family: 'Karla', sans-serif;
+  color: #fff;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: 'Karla', sans-serif;
+  text-transform: uppercase;
+  color: #3a455c;
+  text-align: center;
+}
+
+p {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Karla', sans-serif;
+}
+
+a {
+color: inherit;
+}
+
+.textsection p {
+  max-width: 30vw;
+  padding: 1vw;
+}
+
+.textsection h2 {
+  transform: scale(1.5) translate(90px, 0px);
+  color: #3a455c;
+  font-family: 'Marcellus', serif;
+  font-size: 80px;
+  line-height: 70%;
+  text-align: left;
+  display: block;
+}
+
+.textsection span {
+  font-style: italic;
+  text-transform: uppercase;
+  color: #3a455c;
+  text-align: right;
+}
+
+.map p{
+  color: #3a455c;
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.fas {
+  margin-right: 0.5vw;
+}
+
+/* FILM STRIPS */
+
+.filmstrip {
+  background-color: #FFF;
+  width: 24vw;
+  text-align: center;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  position: relative;
+  z-index: 2;
+}
+
+.filmstrip img {
+  height: 20vw;
+  width: 20vw;
+  overflow: hidden;
+  object-fit: cover;
+  display: block;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.strip1{
+  transform: rotate(-20deg) translateX(20vw);
+}
+
+.strip2{
+  transform: rotate(2deg) translateY(-60vw);
+}
+
+
+/* STORAGE
+
+Gray color: #7b7d87
+
+Dark blue color: #3a455c;
+
+Light blue color: #86BBD8;
+
+*/
